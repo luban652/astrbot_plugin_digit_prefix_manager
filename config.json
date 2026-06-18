@@ -1,0 +1,12 @@
+{
+  "global_enabled": false,
+  "whitelist": [
+    "1026541017",
+    "765029950",
+    "700352752"
+  ],
+  "max_length": 30,
+  "enable_notify": true,
+  "admin_only": false,
+  "ignore_patterns": []
+}

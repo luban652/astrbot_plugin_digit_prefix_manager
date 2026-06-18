@@ -1,0 +1,5 @@
+name: astrbot_plugin_digit_prefix_manager
+author: luban652
+description: 检测群聊中独立的5位数字并将其设置为群名前缀，支持替换任意位置的数字前缀、自动截断超长群名，并提供白名单模式及'清空'指令。
+version: 1.0.1
+repo: https://github.com/luban652/astrbot_plugin_digit_prefix_manager
