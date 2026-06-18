@@ -126,7 +126,6 @@ class DigitReplaceManager(Star):
             yield event.plain_result(f"已关闭")
 
     @filter.event_message_type(filter.EventMessageType.GROUP_MESSAGE)
-    @filter.priority(50)
     async def handle_group_message(self, event: AstrMessageEvent):
         """核心逻辑：监听群消息并处理数字替换"""
         msg_str = event.message_str.strip()
